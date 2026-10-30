@@ -1,0 +1,25 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos temporales generados por VisionVox
+data/*
+audio/*
+
+# Logs
+*.log
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caché y modelos descargados
+.cache/
+huggingface/
