@@ -99,16 +99,35 @@ La primera ejecución puede tardar porque los modelos de inteligencia artificial
 | Comando | Descripción |
 |---|---|
 | `!hello` | Comprueba que el bot está funcionando. |
-| `!scan` | Analiza una imagen adjunta y genera los resultados. |
-| `!status` | Comprueba si los modelos están disponibles. |
-| `!visionhelp` | Muestra la ayuda del bot. |
+| `!scan` | Analiza una imagen adjunta, detecta objetos, genera una descripción, una imagen anotada y audio en español. |
+| `!status` | Comprueba si los modelos de inteligencia artificial están disponibles. |
+| `!dato` | Obtiene un dato curioso aleatorio y lo traduce al español. |
+| `!bola <pregunta>` | Responde preguntas de forma aleatoria con una bola mágica. |
+| `!dado` | Lanza un dado de 6 caras. |
+| `!dado <caras>` | Lanza un dado personalizado, de 2 a 100 caras. |
+| `!hola` | Envía un saludo aleatorio de VisionVox. |
+| `!timer <tiempo>` | Inicia un temporizador. Admite segundos (`s`), minutos (`m`) y horas (`h`), hasta 2 horas. |
+| `!cumple <DD-MM>` | Registra el cumpleaños del usuario. |
+| `!cumples` | Muestra los cumpleaños registrados. |
+| `!help` | Muestra la lista completa de comandos y su descripción. |
+| `!visionhelp` | Muestra la ayuda alternativa del bot. |
 
-### Ejemplo de uso
+### 📌 Ejemplos de uso
 
-1. Adjunta una imagen en un canal donde esté el bot.
-2. Escribe `!scan` en el mismo mensaje.
-3. Espera a que VisionVox procese la imagen.
-4. Recibe las detecciones, la descripción, la imagen anotada y el audio cuando esté disponible.
+```text
+!scan
+!dato
+!bola ¿Tendremos suerte hoy?
+!dado
+!dado 20
+!hola
+!timer 30s
+!timer 5m
+!cumple 14-08
+!cumples
+!status
+!help
+```
 
 ## 🖥️ Requisitos
 
