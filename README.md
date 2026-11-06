@@ -176,7 +176,7 @@ El proyecto continúa en desarrollo y puede recibir nuevas mejoras.
 
 ## 👨‍💻 Autor
 
-Desarrollado como proyecto de programación e inteligencia artificial.
+Desarrollado como proyecto de graduación del curso Phyton Pro de Kodland.
 
 ---
 
